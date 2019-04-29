@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+	<meta charset="utf-8">	
+	<link rel="stylesheet" type="text/css" href="2048.css">
+</head>
+<body>
+	<div class="music" >
+		<span>音乐</span><img src="2.png" id="img">
+		<span>音效</span><img src="2.png" id="img2">
+	    </div>
+	<div class="index" id="index">	
+		<div class="bt">2048</div>
+		<input type="button" value="开始游戏" class="text" onclick="ks()">
+	</div> 
+	<div class="page">
+	<!-- <embed  src="music.mp3" hidden=true loop=true autostart=false id="myMusic" ></embed> -->
+	<audio src="music.mp3" id="myMusic" loop="true" ></audio>
+	<audio src="yx.mp3" id="yx" ></audio>
+	<audio src="yxjs.mp3" id="yxjs"></audio>
+	<div class="box" id="box">
+		<div class="top">
+		<div class="title">2048</div>
+		<div class="df">
+			<div class="txt">得分</div>
+			<div class="number"  id="score">0</div>
+		</div>
+		<div class="df">
+			<div class="txt">历史最高</div>
+			<div class="number" id="scoremax">2048</div>
+		</div>
+	</div>
+	<div class="buttom"></div>
+	</div>
+	</div>
+	<script type="text/javascript" src="2048.js"></script>
+
+</body>
+</html>

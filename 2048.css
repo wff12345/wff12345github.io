@@ -1,0 +1,203 @@
+*{
+	padding: 0;
+	margin:0 auto;
+}
+body{
+	width:375px;
+	height:677px;
+	
+	
+}
+.music{
+	
+	position: absolute;
+	z-index: 2;
+}
+img{
+	margin-left: 40px;
+	width:40px;
+	height: 40px;
+}
+span{
+	position: absolute;
+	margin-top: 8px;
+}
+/*开始游戏页面*/
+.index{
+	user-select: none;
+	width:378px;
+	height:680px;
+	position: absolute;
+	border-radius:20px;
+	display:inline;
+	background: url("2.jpg") 378px 681px;
+	background-size: 378px 681px;
+	z-index: 1;
+}
+.bt{
+	font-size:5rem;
+	color:#fff;
+	margin:140px 90px;
+
+
+
+}
+.text{
+	width: 260px;
+	font-size:3rem;
+	line-height:1.5;
+	border:1px solid #fff;
+	background:#fff;
+	text-align:center;
+	margin:0px 60px;
+	opacity: 0.8;
+}
+/*游戏页面*/
+.page{
+	
+	width:375px;
+	height:677px;
+	border:1px solid red;
+	user-select: none;
+	border-radius: 20px;
+	background: url("2.jpg") 375px 677px;
+	background-size: 375px 677px;
+}
+.box{
+	width: 100%;
+	height:100%;
+	}
+.top{
+	display: flex;/*弹性盒模型*/
+}
+.title{
+	flex: 1;
+	height: 75px;
+	background: deepskyblue;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size:1.5rem;
+	margin:60px 5px ;
+	color:#fff;/*设置标题的样式*/
+	opacity: 0.8;
+}
+.df{
+	flex: 1;
+	height: 75px;
+	background:#eee;
+	border-radius: 10px;
+	text-align: center;
+	margin:60px 5px;/*得分和历史最高的样式*/
+	opacity: 0.8;
+	
+}
+.df:last-child{
+	background:#eae;/*历史最高的颜色*/
+}
+.txt{
+	line-height: 35px;
+	font-size: 0.8rem;/*文字的大小和行高*/
+}
+
+
+
+.buttom{
+	display:flex;
+	align-content:center;
+	justify-content: center;
+	flex-wrap:wrap;
+	height: 335px;
+	background:#caa;
+	margin: 80px 20px;
+	opacity: 0.8;
+}
+.h{
+	display: flex;	
+}
+.h_{
+	flex: 1;
+	width: 75px;
+	height: 75px;
+	margin:2px;
+	text-align: center;
+	line-height: 75px;
+}
+.h_0{
+	color:#ccc;
+	background:#ccc;
+}
+.h_2{
+	color:#fff;
+	background:#ddf;
+
+}
+.h_4{
+	color:#fff;
+	background:#a1d;
+
+}
+.h_8{
+	color:#fff;
+	background:#d2d;
+
+}
+.h_16{
+	color:#fff;
+	background:#d3f;
+
+}
+.h_32{
+	color:#fff;
+	background:#d4c;
+
+}
+.h_64{
+	color:#fff;
+	background:#d5d;
+
+}
+.h_128{
+	color:#fff;
+	background:#16d;
+
+}
+.h_256{
+	color:#fff;
+	background:#27d;
+
+}
+.h_512{
+	color:#fff;
+	background:#38d;
+
+}
+.h_1024{
+	color:#fff;
+	background:#49d;
+
+}
+.h_2048{
+	color:#fff;
+	background:#5ad;
+
+}
+.h_4096{
+	color:#fff;
+	background:#8bd;
+
+}
+.h_8192{
+	color:#fff;
+	background:#7cd;
+
+}
+.h_16384{
+	color:#fff;
+	background:#9ed;
+
+}.h_32768{
+	color:#fff;
+	background:#afd;
+
+}
